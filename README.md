@@ -1,4 +1,4 @@
-authorship-attribution
+Authorship attribution
 ======================
 
-For description, please see: http://www.aicbt.com/authorship-attribution/
+For full description, please see: http://www.aicbt.com/authorship-attribution/
