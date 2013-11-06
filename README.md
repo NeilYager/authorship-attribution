@@ -1,4 +1,4 @@
 authorship-attribution
 ======================
 
-Identify the author of written works
+For description, please see: http://www.aicbt.com/authorship-attribution/
