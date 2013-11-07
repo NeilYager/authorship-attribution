@@ -12,18 +12,6 @@ word_tokenizer = nltk.tokenize.RegexpTokenizer(r'\w+')
 # load data
 data_folder = r"C:\Users\Neil\Dropbox\ml article"
 files = sorted(glob.glob(os.path.join(data_folder, "chapter*.txt")))
-chapter_titles = np.array(["Chapter 1: Getting Started with Python Machine Learning",
-                           "Chapter 2: Learning How to Classify with Real-world Examples",
-                           "Chapter 3: Clustering - Finding Related Posts",
-                           "Chapter 4: Topic Modeling",
-                           "Chapter 5: Classification - Detecting Poor Answers",
-                           "Chapter 6: Classification II - Sentiment Analysis",
-                           "Chapter 7: Regression - Recommendations",
-                           "Chapter 8: Regression - Recommendations Improved",
-                           "Chapter 9: Classification III - Music Genre Classification",
-                           "Chapter 10: Computer Vision - Pattern Recognition",
-                           "Chapter 11: Dimensionality Reduction",
-                           "Chapter 12: Big(ger) Data"])
 chapters = []
 for fn in files:
     with open(fn) as f:
