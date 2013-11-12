@@ -5,7 +5,6 @@ import os
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.cluster import KMeans
 from scipy.cluster.vq import whiten
-from nltk.corpus import wordnet
 sentence_tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 word_tokenizer = nltk.tokenize.RegexpTokenizer(r'\w+')
 
